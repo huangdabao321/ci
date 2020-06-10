@@ -30,6 +30,7 @@ app.use(function (req, res, next) {
 });
 
 
+
 app.get('/api/top', async (req, res) => {
   const allData  = await mongo.col("goods").find().toArray()
   const newData = [...allData]
