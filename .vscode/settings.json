@@ -18,7 +18,7 @@
         "type": "sftp",
         "name": "AliyunServer",
         "dir": "/root/source/docker_ci",
-        "host": "47.94.10.96",
+        "host": "101.200.214.90",
         "port": 22,
         "user": "root",
         "privateKey": "C:/Users/Administrator/.ssh/office.pem"
