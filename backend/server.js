@@ -28,9 +28,6 @@ app.use(function (req, res, next) {
   res.header('Access-Control-Allow-Headers', 'Content-Type');
   next();
 });
-
-
-
 app.get('/api/top', async (req, res) => {
   const allData  = await mongo.col("goods").find().toArray()
   const newData = [...allData]
