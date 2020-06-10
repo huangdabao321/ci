@@ -18,7 +18,7 @@ course.tags.forEach(key => {
 
 const mongo = require("./models/db");
 const testdata = require("./models/init");
-
+//测试
 app.use(function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header('Access-Control-Allow-Methods', 'PUT, GET, POST, DELETE, OPTIONS');
